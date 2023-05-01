@@ -1,0 +1,46 @@
+.page-top {
+  background-image: url("../image/company/page_top.jpg");
+}
+.title {
+  margin-top: 50px;
+}
+.sub-title {
+  margin-bottom: 20px;
+}
+.society-description {
+  border: 1px solid #60b49f;
+  padding: 60px;
+}
+.recruitment {
+  margin-top: 50px;
+}
+.recruitment > p {
+  margin-bottom: 20px;
+}
+.recruitment-header {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #60b49f;
+  display: flex;
+  align-items: center;
+}
+.recruitment-type {
+  background: #58595a;
+  color: white;
+  font-size: 16px;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+.recruitment-title {
+  font-size: 24px;
+}
+.bg-gray {
+  background-color: #eeece8;
+}
+.no-padding {
+  padding: 0px !important;
+}

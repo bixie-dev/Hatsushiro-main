@@ -1,0 +1,64 @@
+.page-top {
+  background-image: url("../image/sightseeing/page_top.jpg");
+}
+.navigation-image1 {
+  background-image: url("../image/sightseeing/surround_sightseeing_pixta_39683912_M.jpg");
+}
+.navigation-image2 {
+  background-image: url("../image/sightseeing/wide_area_tourism_pixta_90822646_M.jpg");
+}
+.navigation-image3 {
+  background-image: url("../image/sightseeing/navigation_3.jpg");
+}
+.navigation-image4 {
+  background-image: url("../image/sightseeing/event_autumn.jpg");
+}
+.surround-tourist-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.surround-sightseeing-content,
+.wide-area-tourism-content,
+.gourmet-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+  row-gap: 64px;
+}
+.event-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 40px;
+  row-gap: 64px;
+}
+.surround-sightseeing-default,
+.wide-area-tourism-default {
+  padding: 48px 0px;
+  background-color: #eeece8;
+}
+.surround-sightseeing-default img,
+.wide-area-tourism-default img {
+  height: 490px !important;
+}
+.surround-sightseeing-item .button-confirm,
+.wide-area-tourism-item .button-confirm,
+.gourmet-item .button-confirm,
+.event-item .button-confirm {
+  margin-right: 12px;
+}
+.surround-sightseeing-content .surround-sightseeing-item button,
+.wide-area-tourism-content .wide-area-tourism-item button,
+.gourmet-content .gourmet-item button,
+.event-content .event-item button {
+  width: 50% !important;
+}
+.surround-sightseeing-item-button-group,
+.wide-area-tourism-item-button-group,
+.gourmet-item-button-group,
+.event-item-button-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

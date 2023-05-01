@@ -1,0 +1,152 @@
+.page-top {
+  background-image: url("../image/facilities/0L9A0330.jpg");
+}
+.navigation-image1 {
+  background-image: url("../image/facilities/entrance.jpg");
+}
+.navigation-image2 {
+  background-image: url("../image/facilities/navigation_2.jpg");
+}
+.navigation-image3 {
+  background-image: url("../image/facilities/restaurant_banquet_hall.jpg");
+}
+.navigation-image4 {
+  background-image: url("../image/facilities/fish_tank.jpg");
+}
+.navigation1-section {
+  padding: 96px 0px;
+}
+.scenery-appearance-entrance {
+  margin-bottom: 96px;
+}
+.scenery-background {
+  height: 550px;
+  background-image: url("../image/facilities/scenery.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 32px;
+  margin-bottom: 48px;
+}
+.scenery-title {
+  font-size: 24px;
+  line-height: 44px;
+  margin-bottom: 48px;
+}
+.scenery-content {
+  margin-bottom: 48px;
+}
+.appearance-entrance {
+  background-image: url("../image/facilities/appearance_entrance.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 48px;
+}
+.appearance-entrance-item {
+  margin-right: 40px;
+  color: white;
+}
+.appearance-entrance-item:last-child {
+  margin-right: 0px;
+}
+.appearance-entrance-content,
+.family-bath,
+.restaurant-banquet-hall,
+.fish-tank {
+  display: flex;
+}
+.family-bath,
+.fish-tank {
+  margin-bottom: 96px;
+}
+.restaurant-banquet-hall {
+  margin-bottom: 48px;
+}
+.family-bath-description,
+.restaurant-banquet-hall-description,
+.fish-tank-description {
+  min-width: 352px !important;
+  width: 352px !important;
+  border-top: 1px solid #60b49f;
+  padding: 96px 14px 0px 14px;
+}
+.family-bath img,
+.restaurant-banquet-hall img,
+.fish-tank img {
+  width: 800px !important;
+  height: 550px !important;
+}
+.family-bath {
+  justify-content: flex-end;
+}
+.restaurant-banquet-hall {
+  justify-content: flex-start;
+}
+.fish-tank {
+  justify-content: flex-end;
+}
+.contact-panel {
+  background-color: #eeece8;
+  text-align: center;
+  padding: 48px;
+  margin-bottom: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-description {
+  margin-bottom: 32px;
+}
+.navigation2-section {
+  background-color: #abced8;
+}
+.navigation-title::before {
+  content: "";
+  width: 200px;
+  height: 1px;
+}
+.navigation-title::after {
+  content: "";
+  width: 200px;
+  height: 1px;
+}
+.navigation-title {
+  font-size: 24px;
+  line-height: 58px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.guest-room,
+.service,
+.basic-facility-information {
+  padding: 64px 0px;
+}
+.guest-room {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.guest-room-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+.guest-room-item {
+  margin-right: 40px;
+}
+.guest-room-item:last-child {
+  margin-right: 0px;
+}
+.basic-facility-information-content {
+  display: flex;
+  justify-content: space-between;
+}
+.basic-facility-information-item {
+  margin-right: 24px;
+}
+.basic-facility-information-item:last-child {
+  margin-right: 0px;
+}

@@ -1,0 +1,48 @@
+.header-section1 {
+  background-color: #dedad2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+}
+.header-logo {
+  width: 100px;
+  margin-right: 40px;
+}
+.header-list {
+  display: flex;
+  margin-right: 40px;
+}
+.header-menu {
+  padding: 0px 10px;
+  border: 1px solid white;
+  font-size: 16px;
+  line-height: 29px;
+}
+.header-section1 a {
+  text-decoration: none;
+  color: black;
+}
+.header-separator {
+  color: white;
+  margin: 0px 10px;
+}
+.header-section2 {
+  background-color: #60b49f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+}
+.accommodation-plans {
+  background-color: #b7282e;
+  color: white;
+  padding: 0px 10px;
+  font-size: 13px;
+  line-height: 26px;
+  margin-right: 20px;
+}
+.reservations-and-inquiries {
+  font-size: 12px;
+  line-height: 21px;
+}

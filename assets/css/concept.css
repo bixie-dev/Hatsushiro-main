@@ -1,0 +1,43 @@
+.page-top {
+  background-image: url("../image/concept/page_top.jpg");
+}
+.navigation-image1 {
+  background-image: url("../image/concept/fresh_fish.jpg");
+}
+.navigation-image2 {
+  background-image: url("../image/concept/blowfish.jpg");
+}
+.fresh-fish,
+.production-for-consumption1,
+.production-for-consumption2,
+.production-for-consumption3,
+.fugu-craftsman {
+  display: flex;
+}
+.fresh-fish,
+.production-for-consumption1 {
+  margin-bottom: 64px;
+}
+.production-for-consumption2 {
+  margin-bottom: 48px;
+}
+.fresh-fish-description,
+.production-for-consumption2-description {
+  margin-right: 24px;
+}
+.production-for-consumption1-description,
+.production-for-consumption3-description,
+.fugu-craftsman-description {
+  margin-left: 24px;
+}
+.fresh-fish img,
+.production-for-consumption1 img,
+.fugu-craftsman img {
+  max-width: 700px !important;
+  max-height: 490px !important;
+}
+.production-for-consumption2 img,
+.production-for-consumption3 img {
+  width: 540px !important;
+  height: 378px !important;
+}
