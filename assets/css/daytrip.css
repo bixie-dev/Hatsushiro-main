@@ -1,12 +1,15 @@
 .page-top {
   background-image: url("../image/daytrip/page_top.jpg");
 }
+
 .navigation-image1 {
   background-image: url("../image/daytrip/navigation_1.jpg");
 }
+
 .navigation-image2 {
   background-image: url("../image/daytrip/navigation_2.jpg");
 }
+
 .legal-use-image {
   height: 500px;
   background-image: url("../image/daytrip/legal_use.jpg");
@@ -14,59 +17,74 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .legal-use-content {
   background-color: #e5dee5;
   padding: 64px 0px;
   margin-bottom: 96px !important;
 }
+
 .trouble-with-cooking,
 .relatives-to-gather,
 .day-drive {
   display: flex;
 }
+
 .trouble-with-cooking img,
 .relatives-to-gather img,
 .day-drive img {
   width: 540px !important;
   height: 378px !important;
 }
+
 .trouble-with-cooking {
   justify-content: flex-end;
 }
+
 .trouble-with-cooking-content {
   margin-right: 24px;
 }
+
 .relatives-to-gather {
   justify-content: flex-start;
 }
+
 .relatives-to-gather-content {
   margin-left: 24px;
 }
+
 .choose-a-place-title,
 .choose-a-place-description {
   text-align: center;
 }
+
 .choose-a-place-description {
   color: #b7282e;
   font-size: 24px;
   line-height: 44px;
 }
+
 .choose-a-place-description-bold {
   font-size: 32px;
 }
+
 .choose-a-place-content {
   display: flex;
 }
+
 .choose-a-place-item {
   margin-right: 14px;
 }
+
 .choose-a-place-item:last-child {
   margin-right: 0px;
 }
+
 .content-hr {
   margin: 48px 0px;
   border-color: white;
 }
+
 .contact-content {
   display: flex;
   flex-direction: column;
@@ -74,22 +92,27 @@
   align-items: center;
   margin-bottom: 96px;
 }
+
 .step-content {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .step-item {
   border: 1px solid #bfacbf;
   margin-right: 20px;
 }
+
 .step-item:last-child {
   margin-right: 0px;
 }
+
 .anniversary-memorial-services {
   border: 1px solid #bfacbf;
   padding: 48px;
 }
+
 .drive-use-image {
   height: 500px;
   background-image: url("../image/daytrip/drive_use.jpg");
@@ -97,39 +120,171 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .drive-use-content {
   background-color: #ddebef;
   padding: 64px 0px;
 }
+
 .drive-use-content-description {
   text-align: center;
 }
+
 .drive-use-content-sub-description {
   color: #b7282e;
   font-size: 24px;
   line-height: 55px;
 }
+
 .drive-use-content-sub-description-bold {
   font-size: 32px;
   line-height: 55px;
 }
+
 .drive-type-list {
   display: flex;
   justify-content: space-around;
 }
+
 .drive-type-item {
   border: 1px solid #abacad;
 }
+
 .drive-type-content {
   padding: 48px;
   border: 1px solid #95b669;
   margin-bottom: 96px !important;
 }
+
 .drive-type-content-title {
   font-size: 48px;
   line-height: 84px;
+  color: #7AA743;
 }
+
 .drive-type-content-spot {
   font-size: 28px;
   line-height: 49px;
+}
+
+
+.point {
+  width: 50px;
+  height: auto;
+  margin: -20px;
+}
+
+.point-title {
+  margin-top: 16px;
+  font-size: 24px;
+  /* line-height: 58px; */
+}
+
+.point-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mt32 {
+  margin-top: 32px !important;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-container .title {
+  font-size: 24px;
+  line-height: 58px;
+}
+
+.line-title {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.line-title .line {
+  width: 200px;
+}
+
+.step-item {
+  padding: 40px 20px;
+  width: 33%;
+}
+
+.step-item .title {
+  display: inline;
+  font-size: 28px;
+  background-color: #BFACBF;
+}
+
+.step-item .description {
+  font-size: 18px;
+}
+
+.contact-info {
+  background-color: #B7282E50;
+}
+
+.drive-type-content .subtitle {
+  color: #7AA443;
+}
+
+.drive-type-content-spot {
+  color: #7AA443;
+}
+
+.drive-type-content .bottom-section {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.drive-type-content .bottom-section .image-box {
+  display: flex;
+  gap: 10px;
+}
+
+.drive-type-content .buttom-section .image-box .image-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.drive-type-content .bottom-section .description {
+  margin-top: 48px;
+}
+
+.drive-type-content .bottom-section .button-default {
+  margin-top: 24px;
+}
+
+.for-couple .drive-type-content-title {
+  color: #FF7B8A;
+}
+
+.for-couple .subtitle {
+  color: #FF7B8A;
+}
+
+.for-couple .drive-type-content-spot {
+  color: #FF7B8A;
+}
+
+.for-group .drive-type-content-title {
+  color: #DE6A1C;
+}
+
+.for-group .subtitle {
+  color: #DE6A1C;
+}
+
+.for-group .drive-type-content-spot {
+  color: #DE6A1C;
 }

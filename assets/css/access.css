@@ -1,0 +1,264 @@
+.access-page-top-section {
+  width: 100%;
+  height: 500px;
+  background-image: url('../image/access/0L9A0303.jpg');
+  background-size: cover;
+  text-shadow: 0 0 5px black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-title {
+  font-size: 36px;
+  line-height: 52px;
+}
+
+.page-introduce-section {
+  background: linear-gradient(#aacdd7, #61b49f);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 0;
+}
+
+img.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.introduce-title {
+  font-size: 28px;
+  line-height: 48px;
+}
+
+.introduce-content {
+  margin-top: 64px;
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.introduce-navigation2 {
+  margin-top: 64px;
+  display: flex;
+  gap: 10px;
+}
+
+.navigation-item {
+  width: 280px;
+  padding: 10px 0px;
+  background-color: rgba(255, 255, 255, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-content {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.page-introduce-section .effect {
+  width: 30%;
+  position: absolute;
+  top: 20px;
+  opacity: .8;
+}
+
+.section1 {
+  padding-top: 96px;
+  padding-bottom: 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: white;
+}
+
+.point {
+  width: 50px;
+  height: auto;
+  margin: -20px;
+}
+
+.point-title {
+  margin-top: 16px;
+  font-size: 24px;
+  /* line-height: 58px; */
+}
+
+.section1 .button-box {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 15px;
+}
+
+.section1 .button-box .button {
+  border: 1px solid darkgray;
+  padding: 5px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-title {
+  margin-top: 64px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-size: 24px;
+  line-height: 58px;
+}
+
+.line-title .line {
+  width: 200px;
+}
+
+.text-list {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.text-list-item {
+  border-bottom: 2px solid #60B49F;
+  padding-bottom: 32px;
+}
+
+
+.text-list-item .title-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.text-list-item .title-box .title {
+  font-size: 24px;
+}
+
+.text-list-item .title-box .subtitle {
+  font-size: 18px;
+}
+
+
+.text-list-item .description {
+  margin-top: 32px;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.contact-panel {
+  margin-top: 96px;
+  padding: 48px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.contact-panel .contact-description {
+  font-size: 18px;
+}
+
+.contact-panel .contact-info {
+  display: flex;
+  align-items: baseline;
+  background-color: #B7282E50;
+  font-size: 18px;
+  color: red;
+}
+
+.contact-panel .contact-info .contact-info-telephone {
+  font-size: 28px;
+}
+
+.contact-panel .information-two-column-table tr>td:nth-child(1) {
+  width: 33%;
+  border-top: 3px solid white;
+  padding: 15px;
+}
+
+.contact-panel .information-two-column-table tr>td:nth-child(2) {
+  width: 67%;
+  border-top: 1px solid white;
+  padding: 15px;
+}
+
+.contact-panel .information-two-column-table tr:last-child>td:nth-child(1) {
+  width: 33%;
+  border-bottom: 3px solid white;
+  padding: 15px;
+}
+
+.contact-panel .information-two-column-table tr:last-child>td:nth-child(2) {
+  width: 33%;
+  border-bottom: 1px solid white;
+  padding: 15px;
+}
+
+.section2 {
+  padding-top: 192px;
+  padding-bottom: 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: white;
+}
+
+.section2 .map {
+  margin-top: 32px;
+  width: 100%;
+  height: auto;
+}
+
+.section2 .address {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.section2 .address .logo {
+  width: 200px;
+  height: auto;
+}
+
+.section2 .address .text {
+  font-size: 18px;
+  line-height: 50px;
+}
+
+.button-default .icon {
+  width: 25px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.table-outter {
+  position: relative;
+  width: 100%;
+  background-color: #ABCED8;
+  padding-bottom: 256px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-outter .title {
+  font-size: 24px;
+}
+
+.table-outter table td {
+  border-top-color: white !important;
+  border-bottom-color: white !important;
+}

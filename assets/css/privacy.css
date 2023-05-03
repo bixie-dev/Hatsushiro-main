@@ -1,0 +1,9 @@
+.page-top {
+  background-image: url("../image/privacy/page_top.jpg");
+}
+.policy-title {
+  border-bottom: 1px solid #60b49f;
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+  font-size: 24px;
+}

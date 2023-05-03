@@ -1,0 +1,421 @@
+.page-top {
+  background-image: url("../image/cuisine/page_top.jpg");
+  text-shadow: 0 0 10px black;
+}
+
+.navigation-image1 {
+  background-image: url("../image/cuisine/breakfast1.jpg");
+}
+
+.navigation-image2 {
+  background-image: url("../image/cuisine/breakfast2.jpg");
+}
+
+.navigation-image3 {
+  background-image: url("../image/cuisine/breakfast3.jpg");
+}
+
+.navigation-image4 {
+  background-image: url("../image/cuisine/restaurant.jpg");
+}
+
+/* .concept {
+  height: 690px;
+  background-image: url("../image/cuisine/concept.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.plan-container {
+  background-color: #d5e6eb;
+}
+
+.plan-content {
+  display: flex;
+}
+
+.plan-title {
+  font-size: 38px;
+  line-height: 67px;
+}
+
+.plan-details {
+  background-color: #b7282e;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.restaurant-image {
+  height: 500px;
+  background-image: url("../image/cuisine/restaurant.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.restaurant-container {
+  background-color: #eeece8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.restaurant-content {
+  display: flex;
+}
+
+.restaurant-item {
+  margin-right: 20px;
+}
+
+.restaurant-item:last-child {
+  margin-right: 0px;
+}
+
+.image-thumbnails {
+  display: flex;
+}
+
+.image-thumbnails-content {
+  width: 100%;
+}
+
+.image-thumbnails-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.image-thumbnails-list img {
+  width: 120px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.breakfast-content {
+  display: flex;
+  gap: 20px;
+}
+
+.concept {
+  width: 100%;
+  height: 690px;
+  background-color: #ABCED8;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 250px;
+  padding-right: 600px;
+  padding-top: 100px;
+}
+
+img.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+img.line  {
+  width: 100%;
+  object-fit: scale-down;
+}
+
+img.point {
+  width: 50px;
+  height: auto;
+}
+
+.concept .title {
+  font-size: 28px;
+  line-height: 58px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 48px 0;
+}
+
+.concept .text {
+  width: 100%;
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.concept .button-box {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.dinner .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dinner .top .title {
+  font-size: 24px;
+  line-height: 58px;
+}
+
+.dinner .top .button-box {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.dinner .top .button-box div {
+  border: 1px solid darkgray;
+  padding: 0 25px;
+}
+
+.line-title {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.line-title .line {
+  width: 200px;
+}
+
+.mt20 {
+  margin-top: 20px !important;
+}
+
+.plan-content {
+  height: 100px !important;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.plan-content .plan-title {
+  font-size: 38px;
+  line-height: 66px;
+}
+
+.plan-content .plan-description {
+  text-decoration: underline;
+  font-size: 18px;
+  line-height: 28px;
+  margin-right: auto;
+}
+
+.plan-content .plan-details {
+  font-size: 19px;
+  padding: 10px 20px;
+}
+
+.plan-container {
+  margin-bottom: 0 !important;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-container .title {
+  font-size: 24px;
+  line-height: 58px;
+}
+
+
+.outline-button-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.outline-button-box div {
+  border: 1px solid darkgray;
+  width: 250px;
+  text-align: center;
+}
+
+.tenth {
+  background-color: green;
+  padding: 10px 20px;
+  margin-right: 20px;
+}
+
+.tenth-description {
+  margin-top: 30px;
+}
+
+.gray-board {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+  margin-top: 30px !important;
+}
+
+.gray-board .reservation {
+  margin-top: 30px;
+  border: 3px solid lightskyblue;
+  padding: 10px;
+}
+
+.gray-board .reservation .title {
+  color: skyblue;
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.gray-board .reservation .title .text-reservation {
+  font-size: 22px;
+  line-height: 38px;
+}
+
+.gray-board .reservation .title .text1 {
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.gray-board .reservation .box {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  
+}
+
+.gray-board .reservation .box .yellow-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: chocolate;
+  color: white;
+  text-shadow: 0 0 5px black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.gray-board .reservation .box .yellow-box .best-mark {
+  width: 30px;
+  height: auto;
+  object-fit: cover;
+}
+
+.gray-board .reservation .box .yellow-box .text1 {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.gray-board .reservation .box .yellow-box .text2 {
+  font-size: 11px;
+  line-height: 12px;
+}
+
+
+.gray-board .reservation .box .red-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.gray-board .reservation .box .text {
+  margin-left: 10px;
+}
+
+.brown-box {
+  display: flex;
+  height: 600px;
+  margin-top: 60px;
+}
+
+.brown-box .left-part {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  min-width: 33%;
+}
+
+.brown-box .left-part .title {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.brown-box .left-part .title .rect {
+  padding: 5px 10px;
+  background-color: brown;
+  color: white;
+}
+
+.brown-box .left-part .title .text {
+  font-size: 24px;
+  line-height: 44px;
+  margin-left: 30px;
+}
+
+.brown-box .left-part .description {
+  font-size: 18px;
+  line-height: 38px;
+  margin-top: 50px;
+}
+
+
+.brown-box .right-part {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  min-width: 33%;
+}
+
+.brown-box .right-part .title {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.brown-box .right-part .title .rect {
+  padding: 5px 10px;
+  background-color: brown;
+  color: white;
+}
+
+.brown-box .right-part .title .text {
+  font-size: 24px;
+  line-height: 44px;
+  margin-left: 30px;
+}
+
+.brown-box .right-part .description {
+  font-size: 18px;
+  line-height: 38px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.brown-line {
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
+}
+
+.brown-box > img {
+  object-fit: cover;
+  width: 66%;
+}

@@ -1,12 +1,23 @@
 .page-top {
   background-image: url("../image/concept/page_top.jpg");
 }
+
+.page-top .title {
+  text-shadow: 0 0 5px black;
+}
+
 .navigation-image1 {
   background-image: url("../image/concept/fresh_fish.jpg");
 }
+
 .navigation-image2 {
   background-image: url("../image/concept/blowfish.jpg");
 }
+
+.navigation-image3 {
+  background-image: url('../image/concept/materials_carousel_2.jpg');
+}
+
 .fresh-fish,
 .production-for-consumption1,
 .production-for-consumption2,
@@ -14,30 +25,361 @@
 .fugu-craftsman {
   display: flex;
 }
+
 .fresh-fish,
 .production-for-consumption1 {
   margin-bottom: 64px;
 }
+
 .production-for-consumption2 {
   margin-bottom: 48px;
 }
+
 .fresh-fish-description,
 .production-for-consumption2-description {
   margin-right: 24px;
 }
+
 .production-for-consumption1-description,
 .production-for-consumption3-description,
 .fugu-craftsman-description {
   margin-left: 24px;
 }
+
 .fresh-fish img,
 .production-for-consumption1 img,
 .fugu-craftsman img {
   max-width: 700px !important;
   max-height: 490px !important;
 }
+
 .production-for-consumption2 img,
 .production-for-consumption3 img {
   width: 540px !important;
   height: 378px !important;
+}
+
+.map {
+  width: 100%;
+  height: 390px;
+  background-image: url('../image/concept/map.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.avatar {
+  position: relative;
+}
+
+.avatar .avatar-content {
+  position: absolute;
+  top: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar img {
+  width: 200px;
+  height: auto;
+}
+.avatar .avatar-name {
+  font-size: 16px;
+  line-height: 38px;
+}
+
+.section-sub-title {
+  margin-left: 250px !important;
+  margin-top: 10px !important;
+}
+
+.cooker {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.cooker .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.cooker .text .title {
+  font-size: 28px;
+  line-height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cooker .text .title1 {
+  margin-top: 60px;
+  font-size: 23px;
+  line-height: 44px;
+}
+
+.cooker .text .description {
+  margin-top: 48px;
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.cooker img {
+  width: 60%;
+  height: auto;
+}
+
+.farmer {
+  margin-top: 64px;
+  display: flex;
+  gap: 15px;
+}
+
+.farmer .image-box {
+  position: relative;
+  width: 66%;
+  min-width: 66%;
+}
+
+.farmer .image-box .avatar {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+}
+
+.farmer .text-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.farmer .text-box .title {
+  font-size: 28px;
+  line-height: 58px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.farmer .text-box .text1 {
+  font-size: 24px;
+  line-height: 44px;
+  margin-top: 60px;
+}
+
+.farmer .text-box .text2 {
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.soil {
+  margin-top: 64px;
+  display: flex;
+  gap: 15px;
+}
+
+.soil .text-box {
+  width: 45%;
+  min-width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.soil .text-box .text1 {
+  margin-top: 48px;
+  font-size: 24px;
+  line-height: 44px;
+}
+
+.soil .text-box .text2 {
+  margin-top: 48px;
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.fruit {
+  margin-top: 48px;
+  display: flex;
+  gap: 20px;
+}
+
+.fruit .image-box {
+  position: relative;
+  width: 50%;
+  min-width: 50%;
+}
+
+.fruit .image-box img {
+  width: 100%;
+}
+
+.fruit .image-box .text {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 170px;
+  color: white;
+  text-shadow: 0 0 10px black;
+}
+
+.fruit .text-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.fruit .text-box .title {
+  margin-top: 48px;
+  font-size: 24px;
+  line-height: 44px;
+  text-align: right;
+}
+
+.fruit .text-box .text {
+  margin-top: 48px;
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.effect-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.effect-container img.effect {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top: -200px;
+}
+
+.fish {
+  margin-top: 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.fish .point {
+  width: 50px;
+  height: auto;
+}
+
+.fish .title {
+  margin-top: 16px;
+  width: 200px;
+  height: auto;
+}
+
+.fish .background {
+  margin-top: 32px;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.fish .avatar {
+  position: absolute;
+  bottom: -80px;
+  right: 150px;
+  width: 200px;
+  height: auto;
+}
+
+.fish-description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  padding: 0 100px 0 100px;
+}
+
+.fish-description .title {
+  font-size: 24px;
+  line-height: 44px;
+}
+
+.fish-description .text {
+  font-size: 18px;
+  line-height: 38px;
+  margin-top: 48px;
+}
+
+.chopsticks {
+  margin-top: 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.chopsticks .point {
+  width: 50px;
+  height: auto;
+}
+
+.chopsticks .background {
+  margin-top: 32px;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.chopsticks-description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  padding: 0 100px 0 100px;
+}
+
+.chopsticks-description .title {
+  font-size: 24px;
+  line-height: 44px;
+}
+
+.chopsticks-description .text {
+  font-size: 18px;
+  line-height: 38px;
+  margin-top: 48px;
+}
+
+.fugu {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.fugu .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.fugu .text .title {
+  font-size: 28px;
+  line-height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fugu .text .title1 {
+  margin-top: 60px;
+  font-size: 23px;
+  line-height: 44px;
+}
+
+.fugu .text .description {
+  margin-top: 48px;
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.fugu img {
+  width: 60%;
+  height: auto;
 }

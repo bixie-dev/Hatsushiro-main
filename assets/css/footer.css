@@ -10,7 +10,7 @@
 .footer-section2 {
   height: 610px;
   background-image: url("../image/headerfooter/footer_section2.jpg");
-  background-position: center;
+  background-position: center;   
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -54,4 +54,14 @@
 .footer-section3-bottom {
   margin-bottom: 64px;
   text-align: center;
+  color: white;
+}
+
+.footer-secion4 {
+  margin-top: 64px;
+}
+
+.footer-secion4 li {
+  margin-left: 3px;
+  margin-right: 3px;
 }

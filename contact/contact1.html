@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title></title>
+
+    <!-- Internal Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/contact1.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/contact2.css" />
+
+    <!-- External Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(function () {
+        $("#header").load("../header.html");
+        $("#footer").load("../footer.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="header"></div>
+
+    <div class="page-top">お問い合わせ</div>
+
+    <div class="page-introduce">
+      <div class="container">
+        <p class="introduce-title">お気軽にお問い合わせください</p>
+
+        <p class="introduce-content">
+          当館へのご質問・お問い合わせは以下のメールフォーム、お電話にてお気軽にお問い合わせくださいませ。<br />
+          後日メール又はお電話にて回答させていただきます。<br />
+          3日経っても連絡がない場合、お手数ですが下記の番号までお問い合わせください。<br />
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <section class="section-container container inquiry-form">
+        <p class="section-title">お問い合わせフォーム</p>
+        <div class="inquiry-form-content">
+          <p>
+            「<span class="important-mark">※</span>」は必須項目になりますので記入漏れの無いようお願いいたします。
+          </p>
+          <table class="information-two-column-table">
+            <tr>
+              <td>お名前（漢字） <span class="important-mark">※</span></td>
+              <td>
+                <input type="text" />
+                <p>例：山田　太郎</p>
+              </td>
+            </tr>
+            <tr>
+              <td>お名前（ふりがな） <span class="important-mark">※</span></td>
+              <td>
+                <input type="text" />
+                <p>例：やまだ　たろう</p>
+              </td>
+            </tr>
+            <tr>
+              <td>お電話番号 <span class="important-mark">※</span></td>
+              <td>
+                <input type="text" />
+                <p>例：093-283-0001</p>
+              </td>
+            </tr>
+            <tr>
+              <td>メールアドレス <span class="important-mark">※</span></td>
+              <td>
+                <input type="text" />
+                <p>
+                  例：abc@hatushiro.co.jp<br />
+                  ※携帯メールの場合は@hatushiro.co.jpからのメールが受信できるよう設定を
+                  お願いいたします。<br />
+                  ※メールアドレスは半角英数文字でのご入力をお願いいたします。<br />
+                  ※お問い合わせ返信先になります。お間違えのないようにお願いいたします。
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>お問い合わせ内容 <span class="important-mark">※</span></td>
+              <td>
+                <textarea rows="10"></textarea>
+              </td>
+            </tr>
+          </table>
+          <button class="button-default section-sub-container2">入力内容を確認する</button>
+          <p>
+            ご記入内容をご確認の上、「入力内容を確認する」ボタンを押してください。<br />
+            ※ご入力いただいた内容はお問い合わせの確認目的以外に使用いたしません。
+          </p>
+        </div>
+      </section>
+
+      <section class="section-container container">
+        <p class="section-title">お電話でのお問い合わせはこちらから</p>
+        <p class="contact-info">
+          TEL.
+          <span class="contact-number">093-283-0001</span>
+        </p>
+        <div class="contact-list">
+          <div class="contact-item">
+            <img src="../assets/image/contact/0L9A0330.jpg" alt="" />
+          </div>
+          <div class="contact-item">
+            <img src="../assets/image/contact/0L9A0179.jpg" alt="" />
+          </div>
+          <div class="contact-item">
+            <img src="../assets/image/contact/0L9A9940.jpg" alt="" />
+          </div>
+        </div>
+        <div class="contact-content">
+          <div>
+            <img src="../assets/image/contact/logo.png" alt="" />
+          </div>
+          <p>
+            海辺の料理旅館 はつしろ<br />
+            〒811-4202　福岡県遠賀郡岡垣町原670-14<br />
+            TEL 093-283-0001
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <div id="footer"></div>
+  </body>
+</html>

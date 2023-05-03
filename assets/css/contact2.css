@@ -1,6 +1,7 @@
 .page-top {
   background-image: url("../image/contact/page_top.jpg");
 }
+
 .contact-info {
   font-size: 28px;
   line-height: 62px;
@@ -8,9 +9,11 @@
   margin: 32px 0px 48px 0px;
   text-align: center;
 }
+
 .contact-number {
   font-size: 42px;
 }
+
 .contact-list {
   width: 100%;
   display: flex;
@@ -19,17 +22,21 @@
   margin-top: 48px;
   margin-bottom: 32px;
 }
+
 .contact-item {
   margin-right: 20px;
 }
+
 .contact-item:last-child {
   margin-right: 0px;
 }
+
 .contact-content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .contact-content img {
   width: 200px;
   margin-right: 64px;

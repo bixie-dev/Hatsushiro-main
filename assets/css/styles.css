@@ -3,6 +3,7 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+
 body,
 p,
 button {
@@ -11,10 +12,13 @@ button {
   border: none;
   font-size: 18px;
   line-height: 38px;
+  position: relative;
 }
+
 img {
   width: 100%;
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -24,6 +28,7 @@ a {
   max-width: 1280px;
   margin: auto;
 }
+
 .container {
   max-width: 1080px;
   margin: auto;
@@ -40,6 +45,7 @@ a {
   font-size: 36px;
   color: white;
 }
+
 .page-introduce {
   background-image: url("../image/page_introduce.png");
   background-position: center;
@@ -48,13 +54,16 @@ a {
   padding: 96px;
   text-align: center;
 }
+
 .page-introduce .introduce-title {
   font-size: 28px;
   margin-bottom: 64px;
 }
+
 .page-introduce .introduce-content {
   margin-bottom: 64px;
 }
+
 .page-introduce .introduce-navigation1,
 .page-introduce .introduce-navigation2 {
   display: flex;
@@ -62,10 +71,12 @@ a {
   justify-content: center;
   margin-bottom: 24px;
 }
+
 .page-introduce .introduce-navigation1 .navigation-item,
 .page-introduce .introduce-navigation2 .navigation-item {
   margin: 0px 10px;
 }
+
 .page-introduce .introduce-navigation1 .navigation-item .navigation-image {
   width: 256px;
   height: 100px;
@@ -73,6 +84,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .page-introduce .introduce-navigation1 .navigation-item .navigation-content,
 .page-introduce .introduce-navigation2 .navigation-item .navigation-content {
   display: flex;
@@ -80,11 +92,13 @@ a {
   justify-content: center;
   line-height: 28px;
 }
+
 .page-introduce .introduce-navigation1 .navigation-item .navigation-content {
   height: 80px;
   background-color: #60b49f;
   color: white;
 }
+
 .page-introduce .introduce-navigation2 .navigation-item .navigation-content {
   width: 256px;
   height: 60px;
@@ -94,17 +108,21 @@ a {
 .section-container {
   padding: 96px 0px;
 }
+
 .section-sub-container1 {
   margin-bottom: 64px;
 }
+
 .section-sub-container2 {
   margin-bottom: 48px;
 }
+
 .section-title {
   font-size: 24px;
   line-height: 58px;
   text-align: center;
 }
+
 .section-sub-title {
   font-size: 24px;
   line-height: 44px;
@@ -116,6 +134,7 @@ a {
   line-height: 21px;
   margin-bottom: 24px;
 }
+
 .contact-info-telephone {
   font-size: 28px;
   line-height: 38px;
@@ -129,7 +148,14 @@ a {
   align-items: center;
   background-color: #60b49f;
   color: white;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 1px;
 }
+
+.button-default:hover {
+  background-color: #50b09a;
+}
+
 .button-confirm {
   width: 400px;
   height: 70px;
@@ -154,26 +180,36 @@ a {
 
 .information-two-column-table {
   width: 100%;
-  padding: 30px 60px;
+  /* padding: 30px 60px; */
+  padding: 30px 0;
   margin-bottom: 30px;
 }
-.information-two-column-table tr > td:nth-child(1) {
+
+.information-two-column-table tr>td:nth-child(1) {
   width: 33%;
   border-top: 3px solid #60b49f;
   padding: 15px;
 }
-.information-two-column-table tr > td:nth-child(2) {
+
+.information-two-column-table tr>td:nth-child(2) {
   width: 67%;
   border-top: 1px solid #60b49f;
   padding: 15px;
 }
-.information-two-column-table tr:last-child > td:nth-child(1) {
+
+.information-two-column-table tr:last-child>td:nth-child(1) {
   border-bottom: 3px solid #60b49f;
 }
-.information-two-column-table tr:last-child > td:nth-child(2) {
+
+.information-two-column-table tr:last-child>td:nth-child(2) {
   border-bottom: 1px solid #60b49f;
 }
 
 .important-mark {
   color: #b7282e;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
 }
